@@ -1,1 +1,42 @@
-/* completa */
+/* Fitxer CSS problema 2 */
+
+h1 {
+    color: darkblue;
+}
+
+h1, h3 {
+    font-style: italic;
+}
+
+header p {
+    font-family: "Courier New", monospace;
+}
+
+.fancy {
+    font-family: "Times", serif;
+}
+
+header.fancy {
+    color: magenta;
+}
+
+section.statistics header h3 {
+    color: red;
+}
+
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+p.important {
+    font-weight: bold;
+    font-size: 30;
+    background-color: aqua;
+}
+/* El enunciat diu valor 0 0 0 10px però el espai entre imatge i text hauria de ser valor 0 10px 0 0 */
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+}
